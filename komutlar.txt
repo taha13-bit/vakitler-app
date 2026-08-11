@@ -1,0 +1,22 @@
+dir
+npm init -y
+npm install @capacitor/core @capacitor/cli
+npx cap init "Vakitler" "com.vakitler.app" --web-dir=www
+npx cap add ios
+npm install @capacitor/ios
+npx cap add ios
+git --version
+git init
+git add .
+git commit -m "ilk yukleme"
+git config --global user.email "seninmailin@example.com"
+git config --global user.name "Adýn Soyadýn"
+git config --global user.email "vakitler@app.com"
+git config --global user.name "Vakitler"
+git commit -m "ilk yukleme"
+git branch -M main
+git remote add origin https://github.com/taha13-bit/vakitler-app.git
+git push -u origin main
+doskey /history > cmd_gecmisi.txt
+komut > sonuc.txt 2>&1
+doskey /history > komutlar.txt
