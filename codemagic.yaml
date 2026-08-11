@@ -6,16 +6,12 @@ workflows:
     environment:
       node: latest
       xcode: latest
-      cocoapods: default
     scripts:
       - name: Install npm dependencies
         script: |
           npm install
-      - name: Install CocoaPods dependencies
-        script: |
-          cd ios/App && pod install
       - name: Build for iOS Simulator
         script: |
-          xcodebuild -workspace ios/App/App.xcworkspace -scheme App -sdk iphonesimulator -configuration Debug build
+          xcodebuild -project ios/App/App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug build
     artifacts:
       - build/**/*.app
