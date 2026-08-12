@@ -476,7 +476,7 @@
       <div class="consent-links"><span onclick="onbShowLegal('gizlilik','Gizlilik Politikası')">Gizlilik Politikası</span><span onclick="onbShowLegal('sartlar','Kullanım Şartları')">Kullanım Şartları</span></div>
       <div class="consent-check" onclick="toggleConsent()"><div class="cb" id="consentCb"></div><span>Uygulamayı kullanarak <b>Gizlilik Politikası</b>'nı ve <b>Kullanım Şartları</b>'nı okuduğumu ve kabul ettiğimi onaylıyorum.</span></div>
       <button class="obtn p" id="consentBtn" onclick="onbFinish()" disabled>Kabul Et ve Devam Et</button>
-      <div class="ostatus">Vakitler Yazılım A.Ş. · Sürüm 2.4.0</div>
+      <div class="ostatus">Vakitler · Sürüm 2.4.0</div>
     </div>
 
     <!-- STEP 6 — celebration / ready -->
@@ -1821,7 +1821,7 @@ const SUB_RENDERERS = {
         <div class="list-row" onclick="openSub('gizlilik','Gizlilik Politikası', ()=>openSub('hakkinda','Hakkında'))"><div class="ic4">🔒</div><div class="lt">Gizlilik Politikası</div><div class="chevr">›</div></div>
         <div class="list-row" onclick="openSub('sartlar','Kullanım Şartları', ()=>openSub('hakkinda','Hakkında'))"><div class="ic4">📄</div><div class="lt">Kullanım Şartları</div><div class="chevr">›</div></div>
       </div></div>
-      <div class="disclaimer">Vakitler Yazılım A.Ş. · destek@vakitler.app · © ${new Date().getFullYear()} Tüm hakları saklıdır.</div>`;
+      <div class="disclaimer">Vakitler · tahacanyoney@gmail.com · © ${new Date().getFullYear()} Tüm hakları saklıdır.</div>`;
   },
   gizlilik(body){
     body.innerHTML = `<div class="simple-list" style="padding:4px 16px 20px;">
@@ -1834,7 +1834,7 @@ const SUB_RENDERERS = {
       <h3 style="font-size:14px; margin:14px 0 6px;">4. Verilerinin Kontrolü</h3>
       <p class="lg-p">Konum iznini istediğin zaman cihaz ayarlarından geri alabilir, Oruç Takibi ve Amel Defteri gibi özelliklerde girdiğin verileri Ayarlar üzerinden temizleyebilirsin.</p>
       <h3 style="font-size:14px; margin:14px 0 6px;">5. İletişim</h3>
-      <p class="lg-p">Sorularınız için destek@vakitler.app adresinden bize ulaşabilirsiniz.</p>
+      <p class="lg-p">Sorularınız için tahacanyoney@gmail.com adresinden bize ulaşabilirsiniz.</p>
       <div class="disclaimer">Son güncelleme: Ağustos 2026 · Bu metin önizleme amaçlıdır, yayın öncesi bir hukuk danışmanı tarafından gözden geçirilmelidir.</div>
     </div>`;
   },
@@ -1879,7 +1879,7 @@ const SUB_RENDERERS = {
         <div class="list-row" onclick="openSub('sartlar','Kullanım Şartları', ()=>openSub('ayarlar','Ayarlar'))"><div class="ic4">📄</div><div class="lt">Kullanım Şartları</div><div class="chevr">›</div></div>
         <div class="list-row" onclick="openSub('hakkinda','Hakkında', ()=>openSub('ayarlar','Ayarlar'))"><div class="ic4">ℹ️</div><div class="lt">Hakkında</div><div class="chevr">›</div></div>
       </div></div>
-      <div class="disclaimer">Ayarlar bu oturumda tutulur, sayfa yenilenince sıfırlanır. Vakitler Yazılım A.Ş. · Sürüm 2.4.0</div>`;
+      <div class="disclaimer">Ayarlar bu oturumda tutulur, sayfa yenilenince sıfırlanır. Vakitler · Sürüm 2.4.0</div>`;
     document.getElementById('themeSwitch').classList.toggle('on', darkMode);
   },
   alarmlar(body){
