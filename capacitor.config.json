@@ -1,5 +1,14 @@
 {
   "appId": "com.vakitler.app",
   "appName": "Vakitler",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#24439B"
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK"
+    }
+  }
 }

@@ -15,6 +15,6 @@ workflows:
           npx cap sync ios
       - name: Build for iOS Simulator
         script: |
-          xcodebuild -project ios/App/App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug build
+          xcodebuild -project ios/App/App.xcodeproj -scheme App -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -configuration Debug CODE_SIGNING_ALLOWED=NO build
     artifacts:
       - build/**/*.app

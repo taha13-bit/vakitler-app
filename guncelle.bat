@@ -13,7 +13,7 @@ call npx cap sync ios >> guncelle_log.txt 2>&1
 echo  [3/4] Degisiklikler kaydediliyor (git commit)...
 echo [3/4] git commit >> guncelle_log.txt
 git add -A >> guncelle_log.txt 2>&1
-git commit -m "Vakitler 3.0: global surum, AdMob, ulke-il-ilce secici" >> guncelle_log.txt 2>&1
+git commit -m "Vakitler 3.2: widget, Ramazan modu, istatistik, kible haritasi, Diyanet vakitleri, bildirim sesi" >> guncelle_log.txt 2>&1
 echo  [4/4] GitHub'a gonderiliyor (git push)...
 echo [4/4] git push >> guncelle_log.txt
 git push >> guncelle_log.txt 2>&1
